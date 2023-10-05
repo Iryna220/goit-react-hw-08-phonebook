@@ -9,6 +9,7 @@ import Filter from './Filter';
 import css from './App.module.css';
 import Notification from './Notification/Notification';
 import Loader from './Loader/Loader';
+import Container from './Container/Container';
 
 function App() {
   const contacts = useSelector(getContacts);
