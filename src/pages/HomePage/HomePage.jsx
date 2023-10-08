@@ -1,5 +1,5 @@
 import 'animate.css';
-import Telephone from '../HomePage/Images/telephone.gif';
+import Telephone from '../HomePage/Images/train-track.jpg';
 import { NavLink } from 'react-router-dom';
 import styles from './HomePage.module.css';
 

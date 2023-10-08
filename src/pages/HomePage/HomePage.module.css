@@ -32,10 +32,10 @@ h1 {
   }
 }
 
-/* .thumb {
+.thumb {
   margin: 0 auto;
   width: 400px;
-} */
+}
 
 .images {
   max-width: 100%;
@@ -61,7 +61,7 @@ h1 {
   padding: 0;
   border: none;
   color: aliceblue;
-  background-color: #21d4fd;
+  background-color: #21d5fdbb;
   background-image: linear-gradient(19deg, #21d4fd 0%, #b721ff 100%);
   box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
     7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
@@ -73,7 +73,7 @@ h1 {
   background-color: #ff9a8b;
   background-image: linear-gradient(
     90deg,
-    #ff9a8b 0%,
+    #faaca0 0%,
     #ff6a88 55%,
     #ff99ac 100%
   );
