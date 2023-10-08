@@ -2,6 +2,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import RegisterForm from 'components/RegisterForm/RegisterForm';
 import { signup } from 'redux/auth/authOperations';
 import { getAuthError } from 'redux/auth/authSelectors';
+import styles from './RegisterPage.module.css';
 
 const RegisterPage = () => {
   const dispatch = useDispatch();

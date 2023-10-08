@@ -1,0 +1,23 @@
+.pageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 50px auto;
+  color: rgba(59, 50, 57, 1);
+
+  width: 450px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(59, 50, 57, 1);
+  box-shadow: -1px 1px 34px 4px rgb(81, 82, 83);
+  background-color: antiquewhite;
+}
+
+@media screen and (max-width: 500px) {
+  .pageContainer {
+    width: 350px;
+  }
+}

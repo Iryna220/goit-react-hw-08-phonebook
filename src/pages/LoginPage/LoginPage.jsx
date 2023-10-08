@@ -1,6 +1,7 @@
 import { useDispatch, useSelector } from 'react-redux';
 import { getAuthError } from 'redux/auth/authSelectors';
 import { login } from 'redux/auth/authOperations';
+import styles from './LoginPage.module.css';
 
 import LoginForm from 'components/LoginForm/LoginForm';
 
