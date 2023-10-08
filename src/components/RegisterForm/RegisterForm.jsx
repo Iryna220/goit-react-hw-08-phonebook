@@ -1,5 +1,6 @@
 import useForm from 'service/api/hooks/useForm';
 import { initialState } from './initialState';
+import styles from './RegisterForm.module.css';
 
 const RegisterForm = ({ onSubmit }) => {
   const { state, handleChange, handleSubmit } = useForm({

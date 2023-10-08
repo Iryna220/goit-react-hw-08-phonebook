@@ -53,7 +53,7 @@ h1 {
   font-weight: 500;
   font-family: 'Times New Roman', serif;
   cursor: pointer;
-  /* position: relative; */
+  text-decoration: none;
   display: flex;
   align-items: center;
   justify-content: center;
