@@ -29,6 +29,19 @@ const RegisterForm = ({ onSubmit }) => {
       </div>
       <div className={styles.group}>
         <label className={styles.label} htmlFor="">
+          User email:
+        </label>
+        <input
+          value={email}
+          name="email"
+          onChange={handleChange}
+          className={styles.input}
+          type="email"
+          required
+        />
+      </div>
+      <div className={styles.group}>
+        <label className={styles.label} htmlFor="">
           User password:
         </label>
         <input

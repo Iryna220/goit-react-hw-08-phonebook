@@ -24,7 +24,7 @@ function MyContacts() {
     <div>
       {loading && <Loader />}
       <div className={styles.phonebookContainer}>
-        <h1 classname={styles.titlePhonebook}>Phonebook</h1>
+        <h1 className={styles.titlePhonebook}>Phonebook</h1>
         <ContactForm />
         <h2 className={styles.titleContacts}>Contacts</h2>
         <div className={styles.AllContacts}>

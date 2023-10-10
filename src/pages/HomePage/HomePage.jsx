@@ -16,7 +16,7 @@ const HomePage = () => {
             <img className={styles.images} src={Telephone} alt="" />
           </div>
         </div>
-        <NavLink to="/contacts" className={styles.button} title="Try it now!">
+        <NavLink to="/login" className={styles.button} title="Try it now!">
           Try it now!
         </NavLink>
       </section>

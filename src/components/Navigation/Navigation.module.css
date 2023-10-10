@@ -1,0 +1,45 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 15px 0;
+  border-bottom: 1px solid #00dbde;
+}
+
+@media screen and (max-width: 700px) {
+  .wrapper {
+    flex-direction: column;
+  }
+}
+
+.logo {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  font-weight: 700;
+
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  background-color: #00dbde;
+  background-image: linear-gradient(0deg, #00dbde 0%, #fc00ff 100%);
+}
+
+.link {
+  font-weight: 500;
+  font-size: 18px;
+  padding: 8px 26px;
+  border-radius: 4px;
+  text-decoration: none;
+  background-color: aliceblue;
+  color: #00dbde;
+  outline: 2px solid #00dbde;
+}
+.link.active {
+  color: aliceblue;
+  background-color: #00dbde;
+  background-image: linear-gradient(0deg, #00dbde 0%, #fc00ff 100%);
+  outline: 2px solid aliceblue;
+}
