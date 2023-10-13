@@ -7,7 +7,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background-image: url('https://pixabay.com/photos/nature-forest-trees-light-sun-fog-3151869/'); */
+  background-color: #ffdee9;
+  background-image: linear-gradient(160deg, #ffdee9 0%, #b5fffc 100%);
 }
 
 code {
