@@ -12,6 +12,7 @@
   background-color: aliceblue;
   color: #00dbde;
   outline: 2px solid #00dbde;
+  border-radius: 32px;
 }
 .link.active {
   color: aliceblue;
